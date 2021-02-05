@@ -21,13 +21,6 @@ new Vue({
           self.eMails.push(queryReturn.data.response)
         });
     }
-
-
-
   }
-
-
-
 });
-
 Vue.config.devtools = true
