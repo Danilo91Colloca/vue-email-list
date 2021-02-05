@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>vue-email-list-danilo</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.20.0/axios.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vue"></script>
+  </head>
+  <body>
+
+    <div id="app">
+      <div class="mail-container">
+        <span>RANDOM MAIL LIST</span>
+        <ol>
+          <li class="mail" v-for="mail in eMails">{{mail}}</li>
+        </ol>
+
+      </div>
+    </div>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>
